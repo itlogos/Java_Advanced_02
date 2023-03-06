@@ -11,7 +11,7 @@ public class DaoConnection {
 
     private String url = "jdbc:mysql://localhost/film_collection?serverTimezone=" + TimeZone.getDefault().getID();
     private String user = "root";
-    private String password = "tekla";
+    private String password = "root";
 
     private DaoConnection() {
         try {
